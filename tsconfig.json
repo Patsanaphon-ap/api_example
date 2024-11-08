@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                      // Set ECMAScript target version
+    "module": "commonjs",                  // Use CommonJS for Node.js compatibility
+    "rootDir": "./src",                    // Specify the root directory of TypeScript files
+    "outDir": "./dist",                    // Output directory for compiled JavaScript files
+    "strict": true,                        // Enable strict type checking
+    "esModuleInterop": true,                // Enable compatibility with ES6 modules
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "noImplicitAny": false
+  },
+  "include": ["src/**/*.ts"],                 // Files to include in the project
+  "exclude": ["node_modules"]              // Exclude node_modules from compilation
+}
